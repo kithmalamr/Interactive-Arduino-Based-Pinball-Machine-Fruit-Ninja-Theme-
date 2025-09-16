@@ -1,7 +1,7 @@
 # Pinball Table Subsystems: Audio & Hall Effect Sensing
 
 This repo contains the implementation of the **Audio System** and **Non-Contact Hall Effect Sensors** for a university pinball table prototype.  
-It includes Arduino code, circuit diagrams, and a detailed design report describing hardware selection, system integration, and testing. filecite37†D4 - Individual Report.pdf
+It includes Arduino code, circuit diagrams, and a detailed design report describing hardware selection, system integration, and testing.
 
 ---
 
@@ -13,23 +13,23 @@ It includes Arduino code, circuit diagrams, and a detailed design report describ
   - 3.5 mm audio jack with debug mode (headphone output).  
   - Mechanical switch for speaker/headphone routing.  
   - UART control from Arduino Mega.  
-  - Built-in equalizer settings for customized audio clarity. filecite38†D4 - Individual Report.pdf
+  - Built-in equalizer settings for customized audio clarity.
 
 - 🧲 **Hall Effect Sensing System**:
   - A3214 Hall Effect Sensors with N52 Neodymium magnets.  
   - Micropower, polarity-independent detection of pinball motion.  
   - Latched digital output for stable event detection.  
   - Typical operate point: ±48 Gauss, response time: 60 μs.  
-  - Arduino integration with 10kΩ pull-down resistors. filecite38†D4 - Individual Report.pdf
+  - Arduino integration with 10kΩ pull-down resistors.
 
 - ⚡ **Robust Hardware Design**:
   - Capacitors to smooth voltage fluctuations.  
   - Common ground and filtering to reduce noise.  
-  - Stripboard soldered circuits for modularity. filecite38†D4 - Individual Report.pdf
+  - Stripboard soldered circuits for modularity.
 
 - ✅ **Testing Results**:
   - Audio: 200 Hz – 20 kHz frequency response, <10 ms latency, stable 3W output.  
-  - Hall sensors: >80% detection accuracy, <5 ms response time, <10% error after calibration. filecite38†D4 - Individual Report.pdf
+  - Hall sensors: >80% detection accuracy, <5 ms response time, <10% error after calibration.
 
 ---
 
@@ -43,7 +43,7 @@ It includes Arduino code, circuit diagrams, and a detailed design report describ
 ├─ halleffect_final.jpg    # Circuit diagram of Hall Effect system
 └─ D4 - Individual Report.pdf  # Full subsystem design report
 ```
-References Arduino code, circuits, and report. filecite38†D4 - Individual Report.pdf
+References Arduino code, circuits, and report.
 
 ---
 
@@ -86,7 +86,7 @@ References Arduino code, circuits, and report. filecite38†D4 - Individua
   - Accurate detection at different ball speeds.  
   - <5 ms response time validated on oscilloscope.  
   - Error rate <10% after calibration.  
-  - Stress-tested under repeated impacts with heavy pinball. filecite38†D4 - Individual Report.pdf
+  - Stress-tested under repeated impacts with heavy pinball.
 
 ---
 
@@ -96,11 +96,4 @@ Future extensions include:
 - 🎶 Stereo sound expansion.  
 - 🎛️ More advanced sound effects (e.g., dynamic reverb).  
 - 🧩 Additional sensors (optical or inductive) for more gameplay elements.  
-- 🏓 Integration with other pinball subsystems (scoring, flippers, bumpers). filecite38†D4 - Individual Report.pdf
-
----
-
-## 🙌 Acknowledgements
-
-Subsystem design and implementation by **Kithmal Amarasinghe**,  
-Team D – *Demolition Man*, System Design Exercise 2025. filecite38†D4 - Individual Report.pdf
+- 🏓 Integration with other pinball subsystems (scoring, flippers, bumpers).
